@@ -1,5 +1,7 @@
 # botkit_myjson_storage
 
+[![NPM](https://nodei.co/npm/botkit_myjson_storage.png?compact=true)](https://npmjs.org/package/botkit_myjson_storage)
+
 Use myjson.com to store data for your BotKit bot. 
 
 ## Usage
