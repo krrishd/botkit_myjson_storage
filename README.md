@@ -24,7 +24,7 @@ From there, you should be able to use [Botkit's documented storage functionality
 
 If you're actually going to end up using this for something fairly active -- and don't wanna overload/overtrust http://myjson.com, you can feel free to self-host an API that follows [their specifications](http://myjson.com/api) exactly, and then specify that you've done so by using it like:
 
-````
+```
 var yourController = Botkit.slackbot({
   storage: require('botkit_myjson_storage')({
     endpoint: 'http://api.mycustomendpoint.com',
