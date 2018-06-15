@@ -12,7 +12,7 @@ Once it's installed, go to myjson.com and enter and save `[]`. In the URL you'll
 
 Use it as demonstrated by the following example:
 
-````
+```
 var yourController = Botkit.slackbot({
   storage: require('botkit_myjson_storage')({
     bin_id: 'THE_BIN_ID'
