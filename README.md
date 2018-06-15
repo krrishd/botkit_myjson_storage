@@ -14,7 +14,7 @@ Once it's installed, go to myjson.com and enter and save `[]`. In the URL you'll
 
 Use it as demonstrated by the following example:
 
-```
+```javascript
 var yourController = Botkit.slackbot({
   storage: require('botkit_myjson_storage')({
     bin_id: 'THE_BIN_ID'
@@ -26,7 +26,7 @@ From there, you should be able to use [Botkit's documented storage functionality
 
 If you're actually going to end up using this for something fairly active -- and don't wanna overload/overtrust http://myjson.com, you can feel free to self-host an API that follows [their specifications](http://myjson.com/api) exactly, and then specify that you've done so by using it like:
 
-```
+```javascript
 var yourController = Botkit.slackbot({
   storage: require('botkit_myjson_storage')({
     endpoint: 'http://api.mycustomendpoint.com',
