@@ -1,0 +1,16 @@
+{
+  "name": "botkit_myjson_storage",
+  "version": "1.0.0",
+  "description": "A storage module for BotKit bots powered by myjson.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Krish Dholakiya <krishna.dholakiya@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "unit.js": "^2.0.0"
+  }
+}
